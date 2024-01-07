@@ -20,6 +20,12 @@ body{
 .text-center{
     text-align: center;
 }
+.image-embeds{
+        max-width: 1400px;
+    background-color: var(---secondary-color); 
+    opacity: 90%;
+    padding: 30px;
+}
 
 .grid{
 display: grid;
@@ -30,9 +36,10 @@ grid-gap: 64px;
     width: 100%;
     display: block;
 }
-.instagram-embeds{
-margin: 30px 0;
-}
+   .image-2 { width: 100%;
+        filter: hue-rotate(264deg) sepia(40%);
+        display: block;
+      }
 
 .grid-2-columns{
 display: grid;
