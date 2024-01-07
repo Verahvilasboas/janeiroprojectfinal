@@ -13,6 +13,20 @@ body{
   background-color:var(---background-color);
 }
 
+table {
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+
+td {
+  border-top: 1px solid lightgray;
+}
+
+.responsive-table {
+  overflow-x: auto;
+}
+
+
 .container{
     max-width: 1400px;
     margin: 0 auto;
